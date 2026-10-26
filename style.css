@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+}
+
+.box, .poll {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.poll {
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  margin: 3px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+}

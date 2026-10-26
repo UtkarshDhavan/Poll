@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poll App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>My Poll App</h1>
+
+  <div class="box">
+    <h2>Create a poll</h2>
+    <input type="text" id="question" placeholder="Type your question"><br>
+    <input type="text" id="opt0" placeholder="Option 1"><br>
+    <input type="text" id="opt1" placeholder="Option 2"><br>
+    <input type="text" id="opt2" placeholder="Option 3 (optional)"><br>
+    <input type="text" id="opt3" placeholder="Option 4 (optional)"><br>
+    <button onclick="createPoll()">Create Poll</button>
+  </div>
+
+  <div id="polls"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
